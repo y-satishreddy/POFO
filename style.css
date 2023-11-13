@@ -1,0 +1,2079 @@
+/* Header start */
+body{
+    background-color:rgb(255, 255, 255);
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.banner{
+    height:60px;
+    width:100%;
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    padding:10px 65px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top:0px;
+}
+.banner-items{
+    list-style-type: none;
+    display: flex;
+    column-gap: 40px;
+}
+.banner-items>li{
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+}
+.banner img{
+    color: white;
+}
+.btn-logo{
+    background-color:rgb(255, 255, 255);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size:10px; 
+    font-family: 'Montserrat', sans-serif;
+    column-gap: 10px;
+}
+.btn-logo i{
+    font-size:9px; 
+}
+.banner-items>li:hover{
+    transition:0.8s;
+    color:crimson;
+}
+.btn-logo:hover{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 249, 249);
+    color:rgb(255, 255, 255);
+}
+/* Header End */
+.naming{
+    height: 100px;
+    width: 100%;
+}
+/* Part-1-start */
+.part-1{
+    padding-top: 80px;
+    padding-left:200px;
+    padding-right:200px;
+    height:327px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.text-1{
+    font-family: 'Montserrat', sans-serif;
+    color: #939393;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+}
+.text-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    color: black;
+    text-align: center;
+}
+.btn-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 30px;
+    height:35px;
+    width:150px;
+    cursor: pointer;
+    background-color: rgb(255, 33, 79);
+    border: 1px solid rgb(255, 33, 79);
+    color: white;  
+}
+.btn-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 30px;
+    height:35px;
+    width:170px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 33, 79);
+    color:rgb(255, 33, 79);
+}
+.btn-2 i{
+    font-size: 15px;
+}
+.part-1>img{
+    width: 100%;
+}
+.btn-1:hover{
+background-color: white;
+color:rgb(255, 33, 79);
+}
+.btn-2:hover{
+background-color: rgb(255, 33, 79);
+color:white;
+}
+/* Part-1-End*/
+
+/* Carousel1 Start */
+.body1{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* height:100vh; */
+    overflow: hidden;
+}
+.main{
+    height:460px;
+    width: 700px;
+    /* overflow: hidden; */
+    /* background-color: yellow; */
+}
+.carousel{
+    height: 460px;
+    width: 1000%;
+    display: flex;
+    transition:0.8s;
+}
+.frame{
+    height: 450px;
+    width: calc(1000%/45%);
+    background-color: blue;
+    margin-right: 80px;
+}
+.frame > img{
+    height:450px;
+    width: 700px;
+}
+/* Carousel2 End */
+
+/* Only images 1 Start */
+.img-1{
+    box-sizing: border-box;
+    height:200px;
+    width: 100%;
+    padding-left:200px;
+    padding-right:200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    column-gap: 20px;
+}
+.img-1 img{
+    height:40px;
+    width:150px;
+}
+/* Only images 1 End */
+
+/* Part 2 Start */
+.part-2{
+    height:244px;
+    width:100%;
+    background-color: #f6f6f6;
+    padding-left:200px;
+    padding-right:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.content-1-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #232323;
+}
+.content-2-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #6f6f6f;
+}
+/* Part 2 End */
+
+/* Header 2 Start */
+.main-list{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+        }
+.list-items{
+    display: flex;
+    list-style-type:none;
+    column-gap: 50px;
+}
+.list-items>li{
+    color: white;
+    font-size: 12px;
+    font-family: segoe UI;
+    font-weight: 600;
+    line-height: 17px;
+}
+/* Header 2 End */
+
+/* Images Only-2 Start*/
+p{
+    color: white;
+}
+.main-black{
+    box-sizing: border-box;
+    /* height: 100vh; */
+    display: flex;
+    padding: 100px;
+    background-color: black;
+    column-gap: calc(36%/4);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 100px;
+}
+.black-back{
+    background-color: black;
+    width: 18%;
+}
+.support{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-classic-corporate.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img:hover .black-wall{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.move-img-img:hover .move-img-cont{
+    color:rgb(252,36,80);
+}
+
+.black-back1{
+    background-color: black;
+    width: 18%;
+}
+.support1{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img1{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-digital-agency.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall1{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img1:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img1:hover .black-wall1{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont1{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.move-img-img1:hover .move-img-cont1{
+    color:rgb(252,36,80);
+}
+
+.black-back2{
+    background-color: black;
+    width: 18%;
+}
+.support2{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img2{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-creative-studio.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall2{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img2:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img2:hover .black-wall2{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont2{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.move-img-img2:hover .move-img-cont2{
+    color:rgb(252,36,80);
+}
+
+.black-back3{
+    background-color: black;
+    width: 18%;
+}
+.support3{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img3{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-interactive-agency.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall3{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img3:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img3:hover .black-wall3{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont3{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img3:hover .move-img-cont3{
+    color:rgb(252,36,80);
+}
+
+.black-back4{
+    background-color: black;
+    width: 18%;
+}
+.support4{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img4{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-web-agency.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall4{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img4:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img4:hover .black-wall4{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont4{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img4:hover .move-img-cont4{
+    color:rgb(252,36,80);
+}
+
+.black-back5{
+    background-color: black;
+    width: 18%;
+}
+.support5{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img5{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-classic-one-page.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall5{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img5:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img5:hover .black-wall5{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont5{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img5:hover .move-img-cont5{
+    color:rgb(252,36,80);
+}
+
+.black-back6{
+    background-color: black;
+    width: 18%;
+}
+.support6{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img6{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-creative-business.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall6{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img6:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img6:hover .black-wall6{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont6{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img6:hover .move-img-cont6{
+    color:rgb(252,36,80);
+}
+
+.black-back7{
+    background-color: black;
+    width: 18%;
+}
+.support7{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img7{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-innovation-agency.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall7{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img7:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img7:hover .black-wall7{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont7{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img7:hover .move-img-cont7{
+    color:rgb(252,36,80);
+}
+
+.black-back8{
+    background-color: black;
+    width: 18%;
+}
+.support8{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img8{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-full-screen-vertical.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall8{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img8:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img8:hover .black-wall8{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont8{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img8:hover .move-img-cont8{
+    color:rgb(252,36,80);
+}
+.black-back9{
+    background-color: black;
+    width: 18%;
+}
+.support9{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img9{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-minimal.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall9{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img9:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img9:hover .black-wall9{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont9{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img9:hover .move-img-cont9{
+    color:rgb(252,36,80);
+}
+.black-back10{
+    background-color: black;
+    width: 18%;
+}
+.support10{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img10{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-classic-start-up.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall10{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img10:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img10:hover .black-wall10{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont10{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img10:hover .move-img-cont10{
+    color:rgb(252,36,80);
+}
+.black-back11{
+    background-color: black;
+    width: 18%;
+}
+.support11{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img11{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-blog-clean.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall11{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img11:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img11:hover .black-wall11{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont11{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img11:hover .move-img-cont11{
+    color:rgb(252,36,80);
+}
+.black-back12{
+    background-color: black;
+    width: 18%;
+}
+.support12{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img12{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-branding-agency.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall12{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img12:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img12:hover .black-wall11{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont12{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img12:hover .move-img-cont11{
+    color:rgb(252,36,80);
+}     
+.black-back13{
+    background-color: black;
+    width: 18%;
+}
+.support13{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img13{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-blog-personal.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall13{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img13:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img13:hover .black-wall13{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont13{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img13:hover .move-img-cont13{
+    color:rgb(252,36,80);
+}
+.black-back14{
+    background-color: black;
+    width: 18%;
+}
+.support14{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img14{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-photographer.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall14{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img14:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img14:hover .black-wall11{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont14{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img14:hover .move-img-cont14{
+    color:rgb(252,36,80);
+}
+.black-back15{
+    background-color: black;
+    width: 18%;
+}
+.support15{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img15{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-parallax.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall15{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img15:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img15:hover .black-wall15{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont15{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img15:hover .move-img-cont15{
+    color:rgb(252,36,80);
+}
+.black-back16{
+    background-color: black;
+    width: 18%;
+}
+.support16{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img16{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-metro-portfolio.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall16{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img16:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img16:hover .black-wall16{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont16{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img16:hover .move-img-cont16{
+    color:rgb(252,36,80);
+}
+.black-back17{
+    background-color: black;
+    width: 18%;
+}
+.support17{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img17{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-blog-masonry.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall17{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img17:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img17:hover .black-wall17{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont17{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img17:hover .move-img-cont17{
+    color:rgb(252,36,80);
+}
+.black-back18{
+    background-color: black;
+    width: 18%;
+}
+.support18{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img18{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-creative-designer.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall18{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img18:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img18:hover .black-wall18{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont18{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img18:hover .move-img-cont18{
+    color:rgb(252,36,80);
+}
+.black-back19{
+    background-color: black;
+    width: 18%;
+}
+.support19{
+    height: 260px;
+    width: 100%;
+    background-color: blue;
+}
+.move-img-img19{
+    height: 260px;
+    width: 100%;
+    background-image: url("https://pofo.b-cdn.net/wp-content/uploads/2017/10/pofo-portfolio-blog-grid.jpg.webp");
+    background-size: contain;
+    background-repeat: none; 
+    margin-top: 10px; 
+    
+}
+.black-wall19{
+    height: 260px;
+    width: 100%;
+}
+.move-img-img19:hover{
+    margin-top: 0px;
+    transition: 0.3s;
+    margin-bottom: -10px;
+
+}
+.move-img-img19:hover .black-wall19{
+    height: 260px;
+    width: 100%;
+    background-color: rgb(0,0,0,0.3);
+    transition: 0.3s;
+}
+.move-img-cont19{
+    height: 40px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#ffffff;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.move-img-img19:hover .move-img-cont19{
+    color:rgb(252,36,80);
+}
+
+/* Images Only-2 End */
+
+/* Part-3 Start */
+.cards{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    column-gap: 0.3px;
+}
+.card-1{
+    height:250px;
+    width: 25%;
+    box-sizing: border-box;
+    padding:50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 5px;
+    background-color: white;
+}
+.card-1 i{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+    color:#b7b7b7;
+   
+}
+.content-1{
+    font-size: 16px;
+    color: #232323;
+    font-weight: 500;
+    line-height: 23px;
+    font-family: 'Montserrat', sans-serif;
+}
+.content-2{
+    font-size: 14px;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+.border{
+    height:250px;
+    width:0.01%;
+    background-color:#babec2;
+}
+/* Part-3 End */
+
+/* Part-4 Start */
+.con-img-1{
+    background-color: #f7f7f7;
+    height:650px;
+    width:100%;
+    padding-top: 130px;
+    padding-left: 250px;
+    box-sizing: border-box;
+    column-gap: 100px;
+    display: flex;
+    align-items: center;
+}
+.con-1{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #232323;
+    font-family: 'Montserrat', sans-serif;
+}
+.con-2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #6f6f6f;
+    font-family: 'Montserrat', sans-serif;
+}
+.con-3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6f6f6f;
+    font-family: 'Roboto', sans-serif;
+}
+.con-img-btn{
+    height:30px;
+    width:160px;
+    background-color: white;
+    border: 1px solid rgb(255, 33, 79);
+    border-radius: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+.con-img-btn:hover{
+    background-color: rgb(255, 33, 79);
+    color:white;
+}
+.con-img-1-part-2 img{
+    height: 520px;
+    width: 820px;
+}
+.con-img-1-part-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+/* Part-4 End */
+
+/* Part-5 Start */
+.con-img-2{
+    padding:100px 150px;
+    height:650px;
+    width:100%;
+    background-color: #ffffff;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+}
+.con-img-2-con-1{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #232323;
+    font-family: 'Montserrat', sans-serif;
+}
+.con-img-2-con-2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #6f6f6f;
+    font-family: 'Montserrat', sans-serif;
+}
+.con-img-2-con-3{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6f6f6f;
+    font-family: 'Roboto', sans-serif;
+}
+.con-img-2-btn{
+    height:30px;
+    width:160px;
+    background-color: white;
+    border: 1px solid rgb(255, 33, 79);
+    border-radius: 32px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 24px;
+    cursor: pointer;
+}
+.con-img-2-btn:hover{
+    background-color: rgb(255, 33, 79);
+    color:white;
+}
+.con-img-2 img{
+    height:400px;
+    width:570px;
+}
+.con-img-2-part-2{
+    height: 520px;
+    width:820px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+/* Part-5 End */
+
+/* Part-6 :start */
+.content-no-img{
+    box-sizing: border-box;
+    padding-top: 50px;
+    height:250px;
+    width:100%;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content-no-img-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #232323;
+}
+.content-no-img-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6f6f6f;
+}
+/* Part-6 End */
+
+/* Carousel-2 :start */
+.body2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    background-color: #f7f7f7;
+}
+.main2{
+    height:230px;
+    width:960px;
+    /* background-color: yellow; */
+    overflow: hidden;
+}
+.carousel2{
+    height: 195px;
+    width: 300%;
+    /* background-color: red; */
+    display: flex;
+}
+.frame2{
+    height: 190px;
+    width: calc(300%/100%);
+    margin-right: 70px;
+    /* background-color: rgb(0, 0, 0); */
+}
+.frame2>img{
+    height: 220px;
+    width:250px;
+}
+/* Carousel -2 End */
+
+/* Part-7 Start */
+.black{
+    background-color: black;
+}
+.main_black_1{
+    height:300px;
+    width:100%;
+    background-color: black;
+    color:white;
+    padding-top: 140px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.con_1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    align-content: center;
+}
+.con_2{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400; 
+    font-size:14px;
+    line-height: 24px;
+    color: #6f6f6f;
+    text-align: center;
+    align-content: center;
+}
+.main_black_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+.bl_1{
+    height: 140px;
+    width: 170px;
+    background-color:rgb(33,36,40);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.main_black_2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6px;
+}
+.main_black_2 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight:400; 
+    font-size:14px;
+    line-height: 24px;
+    color: #6f6f6f;
+    text-align: center;
+    align-content: center;
+    margin:auto;
+}
+.main_black_img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+/* Part-7 End */
+
+/* Part-8 Start */
+.bg-white{
+    height:550px;
+    width: 100%;
+    row-gap: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bg-white-cont-1{
+font-family: 'Montserrat', sans-serif;
+font-size: 11px;
+font-weight: 500;
+line-height: 14px;
+color:#ff0000;
+}
+.bg-white-cont-2{
+align-content: center;
+text-align: center;
+font-weight: 600;
+font-size: 40px;
+line-height: 46px;
+font-family: 'Montserrat', sans-serif;
+color:black
+}
+.bg-white .btn{
+margin:18px;
+font-family: 'Montserrat', sans-serif;
+font-size: 11px;
+font-weight: 600;
+line-height: 24px;
+border-radius: 30px;
+height:45px;
+width:230px;
+cursor: pointer;
+background-color: rgb(255, 255, 255);
+border: 1px solid rgb(255, 255, 255);
+color:rgb(255, 33, 79);
+box-shadow: 1px 1px 1px 1px rgb(153, 153, 153);
+}
+.bg-white .btn:hover{
+background-color: rgb(255, 33, 79);
+color:white;
+box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
+}
+.cement{
+height:300px;
+width:100%;
+background-color: rgb(247,247,247);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 10px;
+}
+.cement-cont-1{
+text-align: center;
+color:black;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+}
+.cement-cont-2{
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+color:#6f6f6f;
+}
+/* Part-8 End */
+
+/* Part-9 :start */
+.part-10{
+    box-sizing: border-box;
+    height:600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding-right: 100px;
+
+}
+.part-10-img img{
+    height:600px;
+    width: 700px;
+    margin-left: 100px;
+}
+.part-10-cont-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    color:#232323;
+}
+.part-10-cont-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    color:#6f6f6f;
+}
+.fa-heart,.fa-box{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 39px;
+    color:#939393;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#232323;
+}
+.matter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#6f6f6f; 
+}
+.threee-parts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icon-section-1{
+    display: flex;
+    justify-content: space-around;
+}
+.one-image{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 230px;
+}
+.icon-section-1-1{
+    display: flex;
+    justify-content: row;
+}
+/* Part-10 End */
+
+/* Part-11 Start */
+.content-with-image{
+    height:auto;
+    padding:120px 0px;
+    background-color: rgb(247,247,247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-with-1-head{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color:#232323;
+    font-weight: 500;
+    text-align: center;
+}
+.content-with-2-matter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#6f6f6f;
+    font-weight: 400;
+    text-align: center;
+}
+.image-with-content-1{
+    display: flex;
+    column-gap: 50px;
+}
+.img-with-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#6f6f6f;
+    font-weight: 500;
+    text-align: center;
+}
+.white-with-bar{
+    padding:100px 0px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.white-with-bar-cont-1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color:#232323;
+    font-weight: 500;
+    text-align: center;
+}
+.white-with-bar-cont-2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#636363;
+    font-weight: 400;
+    text-align: center;
+}
+/* Part-11 End */
+
+/* Carousel 3 Start */
+.body3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 70px;
+}
+.main3{
+    height:230px;
+    width:960px;
+    overflow: hidden;
+}
+.carousel3{
+    height: 195px;
+    width: 300%;
+    display: flex;
+}
+.frame3{
+    height: 190px;
+    width: calc(300%/100%);
+    margin-right: 70px;
+}
+.frame3>img{
+    height: 220px;
+    width:250px;
+} */
+/* Carousel 3 End */
+
+/* Part-12 Start */
+/* .main-black-background{
+    box-sizing: border-box;
+    padding:100px 200px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+}
+.black-content-1{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+.black-content-2{
+    font-family: 'Roboto', sans-serif;
+    color:#6f6f6f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.black-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 30px;
+    height:40px;
+    width:200px;
+    cursor: pointer;
+    background-color: rgb(255, 33, 79);
+    border: 1px solid rgb(255, 33, 79);
+    color: white;  
+}
+.black-button:hover{
+background-color: black;
+border:1px solid rgb(255, 33, 79);
+color:white;
+}
+.black-image{
+height:350px;
+width: 100%;
+}
+.matter-page{
+padding-top:110px;
+padding-bottom: 80px;
+background-color: #f7f7f7;
+display: flex;
+align-items: center;
+justify-content: center;
+row-gap: 10px;
+flex-direction: column;
+}
+.matter-page-1{
+font-family: 'Montserrat', sans-serif;
+color:#232323;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+}
+.matter-page-2{
+font-family: 'Roboto', sans-serif;
+color:#6f6f6f;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+} */
+/* Part-12 End */
+
+/* Part-13 Start */
+.paddin{
+    padding: 100px;
+}
+.main-part-of-cont{
+    padding: 120px 120px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.part-one{
+    display: flex;
+    /* height: 200px; */
+    width: 100%;
+    justify-content:space-between;
+}
+.cont-part-one{
+    /* padding: 100px 100px; */
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 30px;
+    width:255px;
+}
+.one-one{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 35px;
+    color:#939393;
+    margin-top: 20px;
+}
+.one-two{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#232323;
+    font-weight: 600;
+}
+.one-two-one{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color:#6f6f6f;
+    font-weight: 400;
+}
+/* Part-14 End */
+
+/* Part-15 :start */
+.black-pink{
+    height: 400px;
+    padding: 100px 0px;
+    background-color: rgb(252,36,80);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+}
+.pink-cont-one{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.pink-cont-2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+.pink-btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 30px;
+    height:40px;
+    width:190px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color:rgb(0, 0, 0);
+}
+.pink-btn:hover{
+    background-color: black;
+    color:white;
+   
+}
+.only-image{
+    padding:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.only-image>img{
+    height:36px;
+    width:240px;
+}
+/* Part-15 :end */
+.main-black-background{
+    box-sizing: border-box;
+    padding:100px 200px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+}
+.black-content-1{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+.black-content-2{
+    font-family: 'Roboto', sans-serif;
+    color:#6f6f6f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+.black-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 24px;
+    border-radius: 30px;
+    height:40px;
+    width:200px;
+    cursor: pointer;
+    background-color: rgb(255, 33, 79);
+    border: 1px solid rgb(255, 33, 79);
+    color: white;  
+}
+.black-btn:hover{
+background-color: black;
+border:1px solid rgb(255, 33, 79);
+color:white;
+}
+.black-image{
+height:350px;
+width: 100%;
+}
+.matter-page{
+padding-top:110px;
+padding-bottom: 80px;
+background-color: #f7f7f7;
+display: flex;
+align-items: center;
+justify-content: center;
+row-gap: 10px;
+flex-direction: column;
+}
+.matter-page-1{
+font-family: 'Montserrat', sans-serif;
+color:#232323;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+}
+.matter-page-2{
+font-family: 'Roboto', sans-serif;
+color:#6f6f6f;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+}
